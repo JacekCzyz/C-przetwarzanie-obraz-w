@@ -1,0 +1,13 @@
+int zapis(FILE *plik_wy, int **obraz, int *struktura);
+int odczyt(FILE *plik_we, int ***obraz, int *struktura);
+void negatyw(int **obraz, int *struktura, int kolor);
+void progowanie(int **obraz, int *struktura, float progproc, int kolor);
+void polprogcz(int **obraz, int *struktura, float progproc, int kolor);
+void polprogb(int **obraz, int *struktura, float progproc, int kolor);
+void korekcja(int **obraz, int *struktura, float wspolczynnik, int kolor);
+void zmiana(int **obraz, int *struktura, int czern, int biel, int kolor);
+void kontur(int **obraz, int *struktura, int kolor);
+void rozmx(int **obraz, int *struktura, int kolor);
+void rozmy(int **obraz, int *struktura, int kolor);
+void konwersja(int **obraz, int *struktura);
+void wyswietl(char *n_pliku);
